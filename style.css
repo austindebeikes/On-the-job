@@ -4,6 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Set minimum height to viewport height */
+    line-height: 1.6; /* Adjust line height for readability */
+    padding: 10px; /* Apply padding around the body */
 }
 
 nav {
@@ -39,11 +41,59 @@ nav a {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 40px; /* Add spacing above h2 */
+}
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0; /* Apply margin to headings */
+    color: #c61717; /* Set color for headings */
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0; /* Apply margin to headings */
+    color: #183385; /* Set color for headings */
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0; /* Apply margin to headings */
+    color: #26a382; /* Set color for headings */
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 0; /* Apply margin to headings */
+    color: #a2119d; /* Set color for headings */
+    font-size: 1.5rem;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-description {
+    font-size: 1rem;
+    color: #9d981b;
+    margin-top: 10px; /* Add margin above menu descriptions */
+}
+
+p {
+    margin-bottom: 20px; /* Add spacing below paragraphs */
 }
 
 footer {
