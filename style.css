@@ -3,9 +3,9 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Set minimum height to viewport height */
-    line-height: 1.6; /* Adjust line height for readability */
-    padding: 10px; /* Apply padding around the body */
+    min-height: 100vh;
+    line-height: 1.6;
+    padding: 10px;
 }
 
 nav {
@@ -47,35 +47,34 @@ nav a {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 40px; /* Add spacing above h2 */
+    margin-top: 40px;
 }
-
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    margin: 20px 0; /* Apply margin to headings */
-    color: #c61717; /* Set color for headings */
+    margin: 20px 0;
+    color: #c61717;
     font-size: 2.5rem;
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px 0; /* Apply margin to headings */
-    color: #183385; /* Set color for headings */
+    margin: 20px 0;
+    color: #183385;
     font-size: 2rem;
 }
 
 h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 20px 0; /* Apply margin to headings */
-    color: #26a382; /* Set color for headings */
+    margin: 20px 0;
+    color: #26a382;
     font-size: 1.75rem;
 }
 
 h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 20px 0; /* Apply margin to headings */
-    color: #a2119d; /* Set color for headings */
+    margin: 20px 0;
+    color: #a2119d;
     font-size: 1.5rem;
 }
 
@@ -89,11 +88,40 @@ h4 {
 .menu-description {
     font-size: 1rem;
     color: #9d981b;
-    margin-top: 10px; /* Add margin above menu descriptions */
+    margin-top: 10px;
 }
 
 p {
-    margin-bottom: 20px; /* Add spacing below paragraphs */
+    margin-bottom: 20px;
+}
+
+/* Center and make the dev-favorites-gallery images responsive */
+.dev-favorites-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+}
+
+.dev-favorites-gallery img {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: add some rounding */
+}
+
+/* Center and style the footer icons */
+.footer-socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Space between icons */
+    padding: 10px;
+}
+
+.footer-icon {
+    width: 40px; /* Adjust size */
+    height: 40px;
 }
 
 footer {
