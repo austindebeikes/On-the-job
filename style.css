@@ -37,6 +37,14 @@ nav a {
     padding: 50px;
 }
 
+/* Limit the size of the food truck image */
+#food-truck-icon {
+    width: 100%;
+    max-width: 600px; /* Set a maximum width */
+    height: auto;
+    margin: 0 auto;
+}
+
 .about-us, .menu, .dev-favorites, .location, .hours {
     max-width: 800px;
     margin: 0 auto;
@@ -128,4 +136,14 @@ footer {
     background-color: #f2f2f2;
     padding: 10px;
     text-align: center;
+}
+
+/* Fade-in animation styles */
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in-active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
